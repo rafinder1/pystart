@@ -1,7 +1,7 @@
 seconds = float(input("How many seconds? "))
 
-hours = seconds / 60 / 60
+hours = seconds // 3600
 
-minutes = hours % 1 * 60
+minutes = seconds % 3600 / 60
 
-print(f"{int(hours)}:{int(minutes)}")
+print(f"{hours:02.0f}:{minutes:02.0f}")

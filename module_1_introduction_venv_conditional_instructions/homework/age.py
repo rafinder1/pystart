@@ -2,7 +2,7 @@ from datetime import datetime
 
 current_year = datetime.now().year
 
-birth_year = float(input("What is your year of birth? "))
+birth_year = int(input("What is your year of birth? "))
 
 years_old = int(current_year - birth_year)
 

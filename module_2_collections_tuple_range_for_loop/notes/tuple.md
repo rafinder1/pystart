@@ -20,4 +20,26 @@ children[0] = 10
 ```
 #### If you create tuple with one element, you must add comma, because it will not be tuple.
 
-#### If you want get on element you use `[index]`
+#### If you want to get on element you use `[index]`
+
+#### These things you can do with tuple:
+```
+(1, 2, 3) * 3 = (1, 2, 3, 1, 2, 3, 1, 2, 3)
+
+a = (1, 2, 3)
+b = (4, 5, 6)
+a += b
+a = (1, 2, 3, 4, 5, 6) (Została utworzona nowa tupla pod zmieną `a`)
+```
+
+#### Unpacking tuple
+```
+first_name, _, last_name = 'Cyprian', 'Kamil', 'Norwid'
+```
+###### use `_` if you do not use variable (it is convention)
+
+#### Operator IN
+```
+animal = 'Frog', 'Pig', 'Cow'
+'Pig' in animal -> True
+```

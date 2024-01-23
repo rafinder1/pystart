@@ -12,7 +12,7 @@ print(f"The first three numbers: {numbers[:3]}")
 print(f"Penultimate item on the list: {numbers[-2]}")
 
 # ➔ Every sixth element starting from the fourth
-print(f"Every sixth element starting from the fourth {numbers[4::6]}")
+print(f"Every sixth element starting from the fourth {numbers[3::6]}")
 
 # ➔ Every third element counting from the end
 print(f"Every third element counting from the end {numbers[::-3]}")

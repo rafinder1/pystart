@@ -1,3 +1,6 @@
+# Ask the user for a number, and the result will display whether
+# it is a prime number.
+
 number = int(input("Give me a number: "))
 
 count = 0

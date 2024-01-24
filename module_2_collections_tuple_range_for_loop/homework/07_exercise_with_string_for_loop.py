@@ -20,10 +20,14 @@ for word in test.split(" "):
     if word[0].lower() == word[-1].lower():
         print(word)
 
-vowels = 'a', 'ą', 'e', 'ę', 'i', 'o', 'u', 'ó', 'y'
+
 print("Ex. 5")
 # Below, display all the words in the sentence with the vowels removed.
-for word in test.split(" "):
-    for vowel in vowels:
-        word = word.lower().replace(vowel, "")
-    print(word)
+vowels = 'aeiouy'
+sentence_ex_5 = ''
+for char in test:
+    if char.lower() not in vowels:
+        sentence_ex_5 += char
+
+print(sentence_ex_5)
+

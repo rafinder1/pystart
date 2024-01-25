@@ -18,4 +18,8 @@ fruit.append('banana')
 
 fruit.remove("apple")
 del fruit[1]
+
+instrument = 'Guitar'
+instrument = list(instrument)
+instrument = ''.join(instrument)
 ```

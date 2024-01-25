@@ -23,3 +23,16 @@ instrument = 'Guitar'
 instrument = list(instrument)
 instrument = ''.join(instrument)
 ```
+
+#### Methods list:
+```python
+first_name = ["Jan", "Jack", "Nina", "Nel"]
+
+# Adds a new item to the end of the list
+first_name.append("Cristiano")
+
+# Adds a new element at position 1
+first_name.insert(1, "Ronaldo")
+
+
+```

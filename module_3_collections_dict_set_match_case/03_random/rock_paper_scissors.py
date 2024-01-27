@@ -8,20 +8,11 @@ computer = random.choice(available_options)
 if user == computer:
     print("Draw")
     quit()
-if user == 'p':
-    if computer == 'r':
-        print('You Win')
-    else:
-        print('You Lose')
-elif user == 'r':
-    if computer == 'p':
-        print('You Lose')
-    else:
-        print('You Win')
+elif ((user == 'p' and computer == 'r') or
+      (user == 's' and computer == 'p') or
+      (user == 'r' and computer == 's')):
+    print('You Win')
 else:
-    if computer == 'r':
-        print('You Lose')
-    else:
-        print('You Win')
+    print('You Lose')
 
 print(f'AI have {computer}')

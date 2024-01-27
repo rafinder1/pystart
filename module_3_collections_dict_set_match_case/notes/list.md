@@ -34,5 +34,12 @@ first_name.append("Cristiano")
 # Adds a new element at position 1
 first_name.insert(1, "Ronaldo")
 
+# Removing the last name and assigning it to a variable
+last_first_name = first_name.pop()
 
+# Removing the second name and assigning it to a variable
+second_name = first_name.pop(1)
+
+# Clears the list
+first_name.clear()
 ```

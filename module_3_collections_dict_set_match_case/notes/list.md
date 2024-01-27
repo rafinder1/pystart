@@ -53,3 +53,24 @@ sorted(names)
 # Returns nothing, sorts the original list -> method
 names.sort(reverse=True)
 ```
+
+### Adding and Multiplying lists
+
+```python
+# Out: ['python', 'C++', 'Java', 'python', 'C++', 'Java', 'python', 'C++', 'Java']
+["python", "C++", "Java"] * 3
+
+# Out: ['Gdynia', 'Warsaw', 'Berlin', 'Paris', 'Madrid']
+["Gdynia", "Warsaw", "Berlin"] + ["Paris", "Madrid"]
+```
+
+### Iteration from two lists
+
+```python
+countries = ['Poland', 'Germany', 'France']
+capitals = ['Warsaw', 'Berlin', 'Paris']
+
+print("Country - Capital")
+for country, capital in zip(countries, capitals):
+    print(country, '-', capital)
+```

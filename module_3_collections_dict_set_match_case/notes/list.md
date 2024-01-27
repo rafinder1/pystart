@@ -43,3 +43,13 @@ second_name = first_name.pop(1)
 # Clears the list
 first_name.clear()
 ```
+
+```python
+names = ['Asia', 'Basia', 'Wojtek', 'Krysia']
+
+# Returns a new sorted list -> function
+sorted(names)
+
+# Returns nothing, sorts the original list -> method
+names.sort(reverse=True)
+```

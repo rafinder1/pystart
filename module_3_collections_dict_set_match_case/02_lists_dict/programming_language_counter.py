@@ -52,3 +52,17 @@ for person in persons:
         language_counter[program] = param_program
 
 print(language_counter)
+
+language_counter = {}
+for person in persons:
+    for program in person['programming_language']:
+        if program not in language_counter:
+            language_counter[program] = {
+                'quantity': 0,
+                'names': []
+            }
+
+        language_counter[program]['quantity'] += 1
+        language_counter[program]['names'].append(person['name'])
+
+print(language_counter)

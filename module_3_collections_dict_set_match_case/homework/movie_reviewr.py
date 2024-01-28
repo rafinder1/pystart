@@ -11,7 +11,8 @@ movies = [
     },
 ]
 
-for index, movie in enumerate(movies):
-    if movie['director'] == 'Steven Spielberg':
-        movies.pop(index)
+new_movies = []
+for movie in movies:
+    if movie['director'] != 'Steven Spielberg':
+        new_movies.append(movie)
 print(movies)

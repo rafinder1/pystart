@@ -1,4 +1,4 @@
-equipments = {"shoes"}
+equipments = []
 
 for _ in range(3):
     equipment = input("Give me a equipment: ")
@@ -6,6 +6,9 @@ for _ in range(3):
     if equipment in equipments:
         print(f"You have {equipment} in equipments")
 
-    equipments.add(equipment)
+    equipments.append(equipment)
 
 print(equipments)
+
+unique_equipments = set(equipments)
+print(unique_equipments)
